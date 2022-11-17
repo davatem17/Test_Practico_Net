@@ -317,6 +317,41 @@
           }
         }
       },
+      "RestClient.Net/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.5",
+          "RestClient.Net.Abstractions": "5.1.0"
+        },
+        "compile": {
+          "lib/net5.0/RestClient.Net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/RestClient.Net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestClient.Net.Abstractions/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.5",
+          "System.Collections.Immutable": "5.0.0",
+          "Urls": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0/RestClient.Net.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/RestClient.Net.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
         "type": "package",
         "dependencies": {
@@ -604,6 +639,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Urls/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Urls.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Urls.dll": {}
         }
       },
       "Curso.ComercioElectronico.Application/1.0.0": {
@@ -1035,6 +1079,42 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "RestClient.Net/5.1.0": {
+      "sha512": "blzKjnuE9Yho2+lUY/damDnF0seyoHfN2b0gG9AIXerrQwm8XawJO8ZT1Ha4rpjJ5pcAnzsR/6Q86+YgLUBFng==",
+      "type": "package",
+      "path": "restclient.net/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/RestClient.Net.dll",
+        "lib/net45/RestClient.Net.xml",
+        "lib/net5.0/RestClient.Net.dll",
+        "lib/net5.0/RestClient.Net.xml",
+        "lib/netstandard2.0/RestClient.Net.dll",
+        "lib/netstandard2.0/RestClient.Net.xml",
+        "restclient.net.5.1.0.nupkg.sha512",
+        "restclient.net.nuspec"
+      ]
+    },
+    "RestClient.Net.Abstractions/5.1.0": {
+      "sha512": "dpxIfurb46vElc0NvUK+xdlZEaZjmtY/T85xNXS4vAt0JiAoFRgO8rzJmwzhAHVqRvNjM6URtHquG4IxRH8DEA==",
+      "type": "package",
+      "path": "restclient.net.abstractions/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/RestClient.Net.Abstractions.dll",
+        "lib/net45/RestClient.Net.Abstractions.xml",
+        "lib/net5.0/RestClient.Net.Abstractions.dll",
+        "lib/net5.0/RestClient.Net.Abstractions.xml",
+        "lib/netstandard2.0/RestClient.Net.Abstractions.dll",
+        "lib/netstandard2.0/RestClient.Net.Abstractions.xml",
+        "restclient.net.abstractions.5.1.0.nupkg.sha512",
+        "restclient.net.abstractions.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
       "sha512": "zssYqiaucyGArZfg74rJuzK0ewgZiidsRVrZTmP7JLNvK806gXg6PGA46XzoJGpNPPA5uRcumwvVp6YTYxtQ5w==",
       "type": "package",
@@ -1398,6 +1478,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Urls/1.0.0": {
+      "sha512": "6DumPK5w7FqIMtj5c4zeGQxAE0IxCSSHhaLk6mo2hx16VuXzuoI3wBX8HorxxJfAjQxMtIBB2RuztEeio7IxMQ==",
+      "type": "package",
+      "path": "urls/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Urls.dll",
+        "lib/net5.0/Urls.dll",
+        "lib/netstandard2.0/Urls.dll",
+        "urls.1.0.0.nupkg.sha512",
+        "urls.nuspec"
+      ]
+    },
     "Curso.ComercioElectronico.Application/1.0.0": {
       "type": "project",
       "path": "../Curso.ComercioElectronico.Application/Curso.ComercioElectronico.Application.csproj",
@@ -1420,6 +1514,7 @@
       "Curso.ComercioElectronico.Domain >= 1.0.0",
       "Curso.ComercioElectronico.Infraestructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.10",
+      "RestClient.Net >= 5.1.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1480,6 +1575,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.10, )"
+          },
+          "RestClient.Net": {
+            "target": "Package",
+            "version": "[5.1.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
