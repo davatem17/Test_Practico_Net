@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Curso.ComercioElectronico.HttpApi/Curso.ComercioElectronico.HttpApi.csproj",
+                "${workspaceFolder}/Curso.ComercioElectronico.HttpApi/Curso.ComercioElectronico.HttpApi.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/Curso.ComercioElectronico.HttpApi/Curso.ComercioElectronico.HttpApi.csproj",
+                "${workspaceFolder}/Curso.ComercioElectronico.HttpApi/Curso.ComercioElectronico.HttpApi.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/Curso.ComercioElectronico.HttpApi/Curso.ComercioElectronico.HttpApi.csproj"
+                "${workspaceFolder}/Curso.ComercioElectronico.HttpApi/Curso.ComercioElectronico.HttpApi.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
