@@ -175,3 +175,13 @@ C:\Users\DAVATEM\Documents\banco_pichincha\prueba_api\src\Curso.ComercioElectron
 C:\Users\DAVATEM\Documents\banco_pichincha\prueba_api\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.pdb
 C:\Users\DAVATEM\Documents\banco_pichincha\prueba_api\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.genruntimeconfig.cache
 C:\Users\DAVATEM\Documents\banco_pichincha\prueba_api\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\ref\Curso.ComercioElectronico.HttpApi.dll
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.csproj.AssemblyReference.cache
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.AssemblyInfoInputs.cache
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.AssemblyInfo.cs
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.csproj.CoreCompileInputs.cache
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.dll
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\refint\Curso.ComercioElectronico.HttpApi.dll
+C:\Users\DAVATEM\Documents\banco_pichincha\dperezvi_api_net\src\Curso.ComercioElectronico.HttpApi\obj\Debug\net6.0\Curso.ComercioElectronico.HttpApi.pdb

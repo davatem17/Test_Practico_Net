@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oc2UhyuVLu5rfA9gF+1xnZVhUjI+MzBRmvq0hSzsoe84jm2QX6n+RrwpL+w2U8ecglD+0eXbGom4RgToaAQXVQ==",
+  "dgSpecHash": "dj05Efjuciu3ce8hszXZdj+/npiUji9j65chVvEh1k9QsuCWHBZpkLLUlFJ+6af4JjlLo8BTWLpu9EN2g/2H3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\DAVATEM\\Documents\\banco_pichincha\\dperezvi_api_net\\src\\Curso.ComercioElectronico.HttpApi\\Curso.ComercioElectronico.HttpApi.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,8 @@
     "C:\\Users\\DAVATEM\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\DAVATEM\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\DAVATEM\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\DAVATEM\\.nuget\\packages\\restclient.net\\5.1.0\\restclient.net.5.1.0.nupkg.sha512",
+    "C:\\Users\\DAVATEM\\.nuget\\packages\\restclient.net.abstractions\\5.1.0\\restclient.net.abstractions.5.1.0.nupkg.sha512",
     "C:\\Users\\DAVATEM\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\DAVATEM\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\DAVATEM\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
@@ -37,7 +39,8 @@
     "C:\\Users\\DAVATEM\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\DAVATEM\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\DAVATEM\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\DAVATEM\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\DAVATEM\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\DAVATEM\\.nuget\\packages\\urls\\1.0.0\\urls.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }
