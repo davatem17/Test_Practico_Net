@@ -12,6 +12,7 @@
           "Curso.ComercioElectronico.Domain": "1.0.0",
           "Curso.ComercioElectronico.Infraestructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
+          "RestClient.Net": "5.1.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -166,6 +167,31 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.2.3.0",
             "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "RestClient.Net/5.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "RestClient.Net.Abstractions": "5.1.0"
+        },
+        "runtime": {
+          "lib/net5.0/RestClient.Net.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "RestClient.Net.Abstractions/5.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "System.Collections.Immutable": "6.0.0",
+          "Urls": "1.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/RestClient.Net.Abstractions.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
           }
         }
       },
@@ -345,6 +371,14 @@
           "System.Text.Encodings.Web": "6.0.0"
         }
       },
+      "Urls/1.0.0": {
+        "runtime": {
+          "lib/net5.0/Urls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Curso.ComercioElectronico.Application/1.0.0": {
         "dependencies": {
           "Curso.ComercioElectronico.Domain": "1.0.0"
@@ -508,6 +542,20 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
+    "RestClient.Net/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-blzKjnuE9Yho2+lUY/damDnF0seyoHfN2b0gG9AIXerrQwm8XawJO8ZT1Ha4rpjJ5pcAnzsR/6Q86+YgLUBFng==",
+      "path": "restclient.net/5.1.0",
+      "hashPath": "restclient.net.5.1.0.nupkg.sha512"
+    },
+    "RestClient.Net.Abstractions/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dpxIfurb46vElc0NvUK+xdlZEaZjmtY/T85xNXS4vAt0JiAoFRgO8rzJmwzhAHVqRvNjM6URtHquG4IxRH8DEA==",
+      "path": "restclient.net.abstractions/5.1.0",
+      "hashPath": "restclient.net.abstractions.5.1.0.nupkg.sha512"
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
       "type": "package",
       "serviceable": true,
@@ -612,6 +660,13 @@
       "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
+    "Urls/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6DumPK5w7FqIMtj5c4zeGQxAE0IxCSSHhaLk6mo2hx16VuXzuoI3wBX8HorxxJfAjQxMtIBB2RuztEeio7IxMQ==",
+      "path": "urls/1.0.0",
+      "hashPath": "urls.1.0.0.nupkg.sha512"
     },
     "Curso.ComercioElectronico.Application/1.0.0": {
       "type": "project",

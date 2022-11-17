@@ -1,5 +1,7 @@
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
+using System.Web;
+
 
 
 
@@ -9,12 +11,14 @@ namespace Curso.ComercioElectronico.HttpApi.Controllers;
 [Route("[controller]")]
 public class RickAndMorty : ControllerBase
 {
-    var client = new RestClient("https://rickandmortyapi.com/api/character");
-    client.Timeout = -1;
-    var request = new RestRequest(Method.GET);
-    IRestResponse response = Client.Execute(request);
-
-    public object Client { get => client; set => client = value; }
-
-    Console.WriteLine(response.Content);
+    [HttpGet]
+    public async IEnumerable<RickAndMorty> Rick()
+    {
+        var client = new HttpClient();
+        var json = await client.GetStringAsync("https://rickandmortyapi.com/api/character");
+        var lista = JsonConvert.DeserializeObject<List<RickAndMorty>>(json);
+        
+        return lista;
+    }
+        
 }
